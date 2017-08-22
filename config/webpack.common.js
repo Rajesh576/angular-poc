@@ -142,7 +142,7 @@ module.exports = function(options) {
           loader: 'json-loader'
         },
 
-        { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
+      //  { test: /\.scss$/, loaders: ['raw-loader', 'sass-loader'] },
 
         { test: /\.(woff2?|ttf|eot|svg)$/, loader: 'url?limit=10000&name=[name].[ext]' },
 

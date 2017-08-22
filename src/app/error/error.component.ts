@@ -3,7 +3,7 @@ import {Router} from '@angular/router';
 
 @Component({
   selector: 'error',
-  styleUrls: [ './error.style.scss' ],
+  //styleUrls: [ './error.style.scss' ],
   templateUrl: './error.template.html',
   encapsulation: ViewEncapsulation.None,
   host: {
